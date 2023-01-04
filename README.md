@@ -1,3 +1,6 @@
 # road-to-web3
 
-Code Newbie to Pro in Web3 & Blockchain
+Solidity Web3 smart contracts from basic to advanced.
+
+*Basics of Javascript
+*Ethereum Developer Bootcamp
