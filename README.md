@@ -2,5 +2,4 @@
 
 Solidity Web3 smart contracts from basic to advanced.
 
-*Basics of Javascript
-*Ethereum Developer Bootcamp
+Code with me: https://alchemy.com/?r=9453f902fe1eda25
