@@ -1,7 +1,7 @@
 # road-to-web3 
 Code with me using AlchemyAPI: https://alchemy.com/?r=9453f902fe1eda25 
 
-This is a basic ERC721 smart contract of 10,000 NFT using Open Zeppelin Smart Conttracts.
+This is a basic ERC721 smart contract of 10,000 NFT using Open Zeppelin Smart Contracts.
 
 Tools used:
 
