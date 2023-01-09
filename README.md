@@ -1,18 +1,19 @@
-# road-to-web3 Code with me: https://alchemy.com/?r=9453f902fe1eda25 
+# road-to-web3 
+Code with me: https://alchemy.com/?r=9453f902fe1eda25 
 //Solidity Web3 ERC721 smart contracts from basic to advanced.
 
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+    // SPDX-License-Identifier: MIT
+    pragma solidity ^0.8.4;
 
-import "@openzeppelin/contracts@4.8.0/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts@4.8.0/token/ERC721/extensions/ERC721Enumerable.sol";
-import "@openzeppelin/contracts@4.8.0/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts@4.8.0/access/Ownable.sol";
-import "@openzeppelin/contracts@4.8.0/utils/Counters.sol";
+    import "@openzeppelin/contracts@4.8.0/token/ERC721/ERC721.sol";
+    import "@openzeppelin/contracts@4.8.0/token/ERC721/extensions/ERC721Enumerable.sol";
+    import "@openzeppelin/contracts@4.8.0/token/ERC721/extensions/ERC721URIStorage.sol";
+    import "@openzeppelin/contracts@4.8.0/access/Ownable.sol";
+    import "@openzeppelin/contracts@4.8.0/utils/Counters.sol";
 
-contract WitCode is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
+    contract WitCode is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
-
+    
     Counters.Counter private _tokenIdCounter;
     // private for security so that only the contract reads itself & not any other users or other type of smart contracts
     uint256 MAX_SUPPLY = 10000
