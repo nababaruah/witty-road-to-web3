@@ -1,6 +1,6 @@
 # road-to-web3 
 Code with me: https://alchemy.com/?r=9453f902fe1eda25 
-//Solidity Web3 ERC721 smart contracts from basic to advanced.
+This is a basic ERC721 smart contract of 10,000 NFT using Open Zeppelin Smart Conttracts.
 
     // SPDX-License-Identifier: MIT
     pragma solidity ^0.8.4;
